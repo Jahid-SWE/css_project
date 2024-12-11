@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: 5px;
+}
+#tag{
+    background-color: rgb(236, 226, 226);
+    background-image: url('/images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top, right bottom;
+    background-attachment: fixed;
+}
+#map{
+   padding: 5px;
+   background-color: cadetblue;
+    /* width: 1200px;
+    max-width: 500px; */
+   width: 100%;
+   min-width: 600px;
+
+}
+.text_div{
+    margin-left: 5px;
+    border: 1px solid black;
+    height: 500px;
+    width: 800px;
+    overflow: auto;
+    resize: both;
+
+}
+#text{
+
+    margin-top: 10px;
+    width: 800px;
+    height: 500px;
+    resize: both;
+    margin-left: 5px;
+}

@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.main{
+div.main{
     margin: 5px;
 }
+
+/* id selector */
 #tag{
     background-color: rgb(236, 226, 226);
     background-image: url('/images/2.jpg');
@@ -12,6 +14,8 @@
     background-size: cover;
     background-position: left top, right bottom;
     background-attachment: fixed;
+    color:yellow;
+    text-align: justify;
 }
 #map{
    padding: 5px;
@@ -22,6 +26,8 @@
    min-width: 600px;
 
 }
+
+/* class Selector */
 .text_div{
     margin-left: 5px;
     border: 1px solid black;

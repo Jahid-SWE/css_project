@@ -160,9 +160,70 @@ div.margin{
     box-sizing: border-box;
 }
 .text-formatting{
-    width: 500px;
-    margin: 50px auto;
+    
     padding: 10px;
     border: 5px solid green;
     text-align: center;
+    /* text-decoration: underline; */
+    /* text-decoration: overline;
+    text-decoration: line-through; */
+    text-transform: capitalize;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* word-spacing: 20px;
+    letter-spacing: 10px; */
+    /* line-height: 40px;
+     white-space: pre; */
+     /* word-wrap: break-word; */
+
+}
+.shado_heading{
+    text-shadow: -20px -20px 5px blue;
+
+}
+
+.writing-mode{
+    width: 800px;
+    writing-mode: vertical-rl;
+}
+a{
+    margin: 50px;
+    text-decoration: none;
+    font-size: 80px;
+    padding: 20px;
+    border: 5px solid black;
+    color: brown;
+    background-color: cadetblue;
+    border-radius: 30px;
+    transition: 1s;
+
+}
+a:link{
+    color: chartreuse;
+}
+a:hover{
+    color: blue;
+    background-color: cornflowerblue;
+    transition: 1s;
+}
+a:active{
+    color: fuchsia;
+}
+
+.font_property{
+    width: 800px;
+    border: 2px solid black;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+
+}
+.font_property p{
+    font-size: 30px;
+    text-align: justify;
+    font-weight: 400 ;
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: monospace;
+  
 }

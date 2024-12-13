@@ -1,3 +1,7 @@
+@font-face{
+    font-family: fontdownload;
+    src: url('/fonts/Dont\ Worry.ttf');
+}
 *{
     margin: 0;
     padding: 0;
@@ -226,4 +230,16 @@ a:active{
     font-variant: small-caps;
     font-family: monospace;
   
+}
+.google_font p{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.font_download{
+    border: 5px solid black;
+    width: 700px;
+    margin: 50px auto;
+    font-family: fontdownload;
+    font-size: 30px;
 }

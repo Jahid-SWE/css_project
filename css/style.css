@@ -243,3 +243,45 @@ a:active{
     font-family: fontdownload;
     font-size: 30px;
 }
+.overflow{
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: azure;
+    margin: auto;
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+    /* /* overflow: hidden; */
+    overflow: auto;
+} 
+.resize_div_text{
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    overflow: auto;
+    resize: both;
+    margin: auto;
+
+}
+#resize_textarea{
+    width: 500px;
+    margin: auto; 
+    resize: horizontal;
+
+}
+.table_data{
+    border: 1px solid;
+    text-align: center;
+}
+table td{
+    border: 1px solid black;
+}
+
+.object_fit{
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+    object-fit: cover;
+    object-position: top;
+
+}

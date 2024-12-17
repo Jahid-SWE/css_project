@@ -302,3 +302,11 @@ table td{
 .psuedo_code p::selection{
     background-color: cornflowerblue;
 }
+.form{ 
+    padding-top: 20px;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    background-color: cornflowerblue;
+    text-align: center;
+}

@@ -300,13 +300,14 @@ table td{
     color: green;
 }
 .psuedo_code p::selection{
-    background-color: cornflowerblue;
+    background-color: #aba5a4;
 }
 .form{ 
-    padding-top: 20px;
+    padding: 30px;
     width: 300px;
     height: auto;
     margin: auto;
     background-color: cornflowerblue;
     text-align: center;
+    border-radius: 10px;
 }

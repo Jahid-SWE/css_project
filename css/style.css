@@ -285,9 +285,20 @@ table td{
     object-position: top;
 
 }
-p::first-line{
+.psuedo_code p::first-letter{
+   
+    font-size: 80px;
+
+}
+.psuedo_code p::first-line{
     color: rebeccapurple;
     background-color: aqua;
     font-size: 50px;
 
+}
+.psuedo_code p{
+    color: green;
+}
+.psuedo_code p::selection{
+    background-color: cornflowerblue;
 }

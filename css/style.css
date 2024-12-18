@@ -374,3 +374,13 @@ input{
     cursor: pointer;
     color: var(--textColor);
 }
+
+.floa_section{
+    text-align: justify;
+}
+p img{
+    margin-left: 10px;
+    float: right;
+    width: 120px;
+    height: 110px;
+}

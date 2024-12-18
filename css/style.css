@@ -311,3 +311,43 @@ table td{
     text-align: center;
     border-radius: 10px;
 }
+
+.parent{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(65, 230, 230);
+    margin: auto;
+    position: relative;
+}
+.one{
+    background-color:  rgb(236, 67, 194);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+
+}
+.two{
+   background-color: grey;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+.three{
+    background-color:  slateblue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+

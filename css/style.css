@@ -385,3 +385,11 @@ p img{
     height: 110px;
     opacity: .3;
 }
+
+.video{
+    width: 100%;
+    height: 800px;
+    margin: 10px;
+}
+
+

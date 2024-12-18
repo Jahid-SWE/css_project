@@ -351,3 +351,28 @@ table td{
 
 }
 
+.function{
+    background-color: goldenrod;
+    height: 500px;
+    width: calc(100% - 150px);
+}
+
+:root{
+    --initialColor: rgb(12, 155, 199);
+    --inputColor:blue;
+    --textColor: white;
+
+}
+
+
+input{
+    background-color: var(--initialColor);
+    margin-top: 10px ;
+    margin-left: 10px ;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--textColor);
+}

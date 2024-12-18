@@ -363,8 +363,6 @@ table td{
     --textColor: white;
 
 }
-
-
 input{
     background-color: var(--initialColor);
     margin-top: 10px ;

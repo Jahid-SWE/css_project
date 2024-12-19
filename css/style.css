@@ -386,10 +386,47 @@ p img{
     opacity: .3;
 }
 
+/* video tag or element section  start */
 .video{
     width: 100%;
     height: 800px;
     margin: 10px;
 }
+/* video tag or element section  end */
+/* Z-index section start */
 
+.z-index{
+    width: 50%;
+    margin: auto;
+    padding: 25px;
+}
+div.one{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    position: relative;
+    z-index: 4;
+}
+div.two{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    z-index: 2; 
+}
+div.three{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    right: 100px;
+    z-index: 3; 
+}
+/* z-index end section */
 

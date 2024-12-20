@@ -399,6 +399,7 @@ p img{
     width: 50%;
     margin: auto;
     padding: 25px;
+   
 }
 div.one{
     width: 100px;
@@ -427,6 +428,20 @@ div.three{
     top: 100px;
     right: 100px;
     z-index: 3; 
+    margin-bottom: 100px;
 }
 /* z-index end section */
 
+/* float image in this section start */
+
+.image{
+    height: 310px;
+    width: 500px;
+    float: left;
+    padding-right: 10px;
+
+}
+.align{
+    text-align: justify;
+}
+/* float image in this section edn */

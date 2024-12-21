@@ -445,3 +445,36 @@ div.three{
     text-align: justify;
 }
 /* float image in this section edn */
+
+
+/* Simple navigation bar using float property section start */
+
+ul{
+    background-color: green;
+    list-style: none;
+    overflow: auto;
+
+}
+li{
+    float: left;
+    padding: 10px;
+}
+/* Simple navigation bar section end */
+
+
+/* Transform property using here section start */
+.transform{
+    height: 200px;
+    width: 400px;
+    background-color: chartreuse;
+    transition: 1s;
+    margin: 50px auto;
+}
+.transform:hover{
+    /* transform: translate(60px, 50px); */
+    background-color: green;
+    transform: scale(2);
+    transform: rotate(90deg);
+ 
+}
+/* Transform property using here section end */

@@ -481,3 +481,6 @@ li{
 .align{
     background-color: red;
 }
+#has{
+    text-emphasis: none;
+}

@@ -463,24 +463,18 @@ li{
 
 
 /* Transform property using here section start */
-.transform{
+.transform_2d{
     height: 200px;
     width: 400px;
     background-color: chartreuse;
     transition: 1s;
     margin: 50px auto;
 }
-.transform:hover{
+.transform_2d:hover{
     /* transform: translate(60px, 50px); */
     background-color: green;
     transform: scale(2);
-    transform: rotate(90deg);
+    transform: rotate(360deg);
  
 }
 /* Transform property using here section end */
-.align{
-    background-color: red;
-}
-#has{
-    text-emphasis: none;
-}
